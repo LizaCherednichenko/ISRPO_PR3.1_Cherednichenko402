@@ -14,10 +14,10 @@
         <TextBox x:Name="textBox2" HorizontalAlignment="Left" Height="65" Margin="130,45,0,0" TextWrapping="Wrap" Text="2" VerticalAlignment="Top" Width="66" FontSize="24" TextAlignment="Center" FontWeight="Bold"/>
         <TextBox x:Name="textBox3" HorizontalAlignment="Left" Height="65" Margin="228,45,0,0" TextWrapping="Wrap" Text="1" VerticalAlignment="Top" Width="66" FontSize="24" TextAlignment="Center" FontWeight="Bold"/>
 
-        <Button x:Name="Button1Pl3" Content="+3" HorizontalAlignment="Left" Height="26" Margin="29,131,0,0" VerticalAlignment="Top" Width="65" Background="#FF77BD77" Foreground="White" FontWeight="Bold" FontSize="18"/>
-        <Button x:Name="Button1Pl2" Content="+2" HorizontalAlignment="Left" Height="26" Margin="29,162,0,0" VerticalAlignment="Top" Width="65" Background="#FF77BD77" Foreground="White" FontWeight="Bold" FontSize="18"/>
-        <Button x:Name="Button1Pl1" Content="+1" HorizontalAlignment="Left" Height="26" Margin="29,193,0,0" VerticalAlignment="Top" Width="65" Background="#FF77BD77" Foreground="White" FontWeight="Bold" FontSize="18"/>
-        <Button x:Name="Button1M1" Content="-1" HorizontalAlignment="Left" Height="26" Margin="29,239,0,0" VerticalAlignment="Top" Width="65" Background="#FF993C3C" Foreground="White" FontWeight="Bold" FontSize="18"/>
+        <Button x:Name="Button1Pl3" Content="+3" HorizontalAlignment="Left" Height="26" Margin="29,131,0,0" VerticalAlignment="Top" Width="65" Background="#FF77BD77" Foreground="White" FontWeight="Bold" FontSize="18" Click="Button1Pl3_Click"/>
+        <Button x:Name="Button1Pl2" Content="+2" HorizontalAlignment="Left" Height="26" Margin="29,162,0,0" VerticalAlignment="Top" Width="65" Background="#FF77BD77" Foreground="White" FontWeight="Bold" FontSize="18" Click="Button1Pl2_Click"/>
+        <Button x:Name="Button1Pl1" Content="+1" HorizontalAlignment="Left" Height="26" Margin="29,193,0,0" VerticalAlignment="Top" Width="65" Background="#FF77BD77" Foreground="White" FontWeight="Bold" FontSize="18" Click="Button1Pl1_Click"/>
+        <Button x:Name="Button1M1" Content="-1" HorizontalAlignment="Left" Height="26" Margin="29,239,0,0" VerticalAlignment="Top" Width="65" Background="#FF993C3C" Foreground="White" FontWeight="Bold" FontSize="18" Click="Button1M1_Click"/>
         <Button x:Name="Button1M2" Content="-2" HorizontalAlignment="Left" Height="26" Margin="29,270,0,0" VerticalAlignment="Top" Width="65" Background="#FF993C3C" Foreground="White" FontWeight="Bold" FontSize="18"/>
         <Button x:Name="Button1M3" Content="-3" HorizontalAlignment="Left" Height="26" Margin="29,301,0,0" VerticalAlignment="Top" Width="65" Background="#FF993C3C" Foreground="White" FontWeight="Bold" FontSize="18"/>
 
@@ -37,7 +37,7 @@
         
         <Label Content="Счетчик" HorizontalAlignment="Left" Height="30" Margin="131,6,0,0" VerticalAlignment="Top" Width="71" FontSize="14" Foreground="White"/>
         
-        <Button x:Name="ButtonSbros" Content="Сброс" HorizontalAlignment="Left" Margin="238,343,0,0" VerticalAlignment="Top" Width="75" Background="#FFFF9C64" FontSize="16" Foreground="White"/>
+        <Button x:Name="ButtonSbros" Content="Сброс" HorizontalAlignment="Left" Margin="238,343,0,0" VerticalAlignment="Top" Width="75" Background="#FFFF9C64" FontSize="16" Foreground="White" Click="ButtonSbros_Click"/>
 
     </Grid>
 </Window>
