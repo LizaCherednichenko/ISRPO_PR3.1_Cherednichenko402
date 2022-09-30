@@ -80,6 +80,90 @@ namespace ISRPO_PR4_Cherednichenko
             calculate();
         }
 
+        private void Button2Pl3_Click(object sender, RoutedEventArgs e)
+        {
+            a = float.Parse(textBox2.Text);
+            count = 7;
+            calculate();
+        }
+
+        private void Button2Pl2_Click(object sender, RoutedEventArgs e)
+        {
+            a = float.Parse(textBox2.Text);
+            count = 8;
+            calculate();
+        }
+
+        private void Button2Pl1_Click(object sender, RoutedEventArgs e)
+        {
+            a = float.Parse(textBox2.Text);
+            count = 9;
+            calculate();
+        }
+
+        private void Button2M1_Click(object sender, RoutedEventArgs e)
+        {
+            a = float.Parse(textBox2.Text);
+            count = 10;
+            calculate();
+        }
+
+        private void Button2M2_Click(object sender, RoutedEventArgs e)
+        {
+            a = float.Parse(textBox2.Text);
+            count = 11;
+            calculate();
+        }
+
+        private void Button2M3_Click(object sender, RoutedEventArgs e)
+        {
+            a = float.Parse(textBox2.Text);
+            count = 12;
+            calculate();
+        }
+
+        private void Button3Pl3_Click(object sender, RoutedEventArgs e)
+        {
+            a = float.Parse(textBox3.Text);
+            count = 13;
+            calculate();
+        }
+
+        private void Button3Pl2_Click(object sender, RoutedEventArgs e)
+        {
+            a = float.Parse(textBox3.Text);
+            count = 14;
+            calculate();
+        }
+
+        private void Button3Pl1_Click(object sender, RoutedEventArgs e)
+        {
+            a = float.Parse(textBox3.Text);
+            count = 15;
+            calculate();
+        }
+
+        private void Button3M1_Click(object sender, RoutedEventArgs e)
+        {
+            a = float.Parse(textBox3.Text);
+            count = 16;
+            calculate();
+        }
+
+        private void Button3M2_Click(object sender, RoutedEventArgs e)
+        {
+            a = float.Parse(textBox3.Text);
+            count = 17;
+            calculate();
+        }
+
+        private void Button3M3_Click(object sender, RoutedEventArgs e)
+        {
+            a = float.Parse(textBox3.Text);
+            count = 18;
+            calculate();
+        }
+
         private void calculate()
         {
             
@@ -108,6 +192,56 @@ namespace ISRPO_PR4_Cherednichenko
                 case 6:
                     b = a - 3;
                     textBox1.Text = b.ToString();
+                    break;
+                
+                case 7:
+                    b = a + 3;
+                    textBox2.Text = b.ToString();
+                    break;
+                case 8:
+                    b = a + 2;
+                    textBox2.Text = b.ToString();
+                    break;
+                case 9:
+                    b = a + 1;
+                    textBox2.Text = b.ToString();
+                    break;
+                case 10:
+                    b = a - 1;
+                    textBox2.Text = b.ToString();
+                    break;
+                case 11:
+                    b = a - 2;
+                    textBox2.Text = b.ToString();
+                    break;
+                case 12:
+                    b = a - 3;
+                    textBox2.Text = b.ToString();
+                    break;
+              
+                case 13:
+                    b = a + 3;
+                    textBox3.Text = b.ToString();
+                    break;
+                case 14:
+                    b = a + 2;
+                    textBox3.Text = b.ToString();
+                    break;
+                case 15:
+                    b = a + 1;
+                    textBox3.Text = b.ToString();
+                    break;
+                case 16:
+                    b = a - 1;
+                    textBox3.Text = b.ToString();
+                    break;
+                case 17:
+                    b = a - 2;
+                    textBox3.Text = b.ToString();
+                    break;
+                case 18:
+                    b = a - 3;
+                    textBox3.Text = b.ToString();
                     break;
                 default:
                     break;

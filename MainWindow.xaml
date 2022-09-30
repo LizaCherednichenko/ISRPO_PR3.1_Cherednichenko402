@@ -21,19 +21,19 @@
         <Button x:Name="Button1M2" Content="-2" HorizontalAlignment="Left" Height="26" Margin="29,270,0,0" VerticalAlignment="Top" Width="65" Background="#FF993C3C" Foreground="White" FontWeight="Bold" FontSize="18" Click="Button1M2_Click"/>
         <Button x:Name="Button1M3" Content="-3" HorizontalAlignment="Left" Height="26" Margin="29,301,0,0" VerticalAlignment="Top" Width="65" Background="#FF993C3C" Foreground="White" FontWeight="Bold" FontSize="18" Click="Button1M3_Click"/>
 
-        <Button x:Name="Button2Pl3" Content="+3" HorizontalAlignment="Left" Height="26" Margin="131,131,0,0" VerticalAlignment="Top" Width="65" Background="#FF77BD77" Foreground="White" FontWeight="Bold" FontSize="18"/>
-        <Button x:Name="Button2Pl2" Content="+2" HorizontalAlignment="Left" Height="26" Margin="131,162,0,0" VerticalAlignment="Top" Width="65" Background="#FF77BD77" Foreground="White" FontWeight="Bold" FontSize="18"/>
-        <Button x:Name="Button2Pl1" Content="+1" HorizontalAlignment="Left" Height="26" Margin="131,193,0,0" VerticalAlignment="Top" Width="65" Background="#FF77BD77" Foreground="White" FontWeight="Bold" FontSize="18"/>
-        <Button x:Name="Button2M1" Content="-1" HorizontalAlignment="Left" Height="26" Margin="131,239,0,0" VerticalAlignment="Top" Width="65" Background="#FF993C3C" Foreground="White" FontWeight="Bold" FontSize="18"/>
-        <Button x:Name="Button2M2" Content="-2" HorizontalAlignment="Left" Height="26" Margin="131,270,0,0" VerticalAlignment="Top" Width="65" Background="#FF993C3C" Foreground="White" FontWeight="Bold" FontSize="18"/>
-        <Button x:Name="Button2M3" Content="-3" HorizontalAlignment="Left" Height="26" Margin="131,301,0,0" VerticalAlignment="Top" Width="65" Background="#FF993C3C" Foreground="White" FontWeight="Bold" FontSize="18"/>
+        <Button x:Name="Button2Pl3" Content="+3" HorizontalAlignment="Left" Height="26" Margin="131,131,0,0" VerticalAlignment="Top" Width="65" Background="#FF77BD77" Foreground="White" FontWeight="Bold" FontSize="18" Click="Button2Pl3_Click"/>
+        <Button x:Name="Button2Pl2" Content="+2" HorizontalAlignment="Left" Height="26" Margin="131,162,0,0" VerticalAlignment="Top" Width="65" Background="#FF77BD77" Foreground="White" FontWeight="Bold" FontSize="18" Click="Button2Pl2_Click"/>
+        <Button x:Name="Button2Pl1" Content="+1" HorizontalAlignment="Left" Height="26" Margin="131,193,0,0" VerticalAlignment="Top" Width="65" Background="#FF77BD77" Foreground="White" FontWeight="Bold" FontSize="18" Click="Button2Pl1_Click"/>
+        <Button x:Name="Button2M1" Content="-1" HorizontalAlignment="Left" Height="26" Margin="131,239,0,0" VerticalAlignment="Top" Width="65" Background="#FF993C3C" Foreground="White" FontWeight="Bold" FontSize="18" Click="Button2M1_Click"/>
+        <Button x:Name="Button2M2" Content="-2" HorizontalAlignment="Left" Height="26" Margin="131,270,0,0" VerticalAlignment="Top" Width="65" Background="#FF993C3C" Foreground="White" FontWeight="Bold" FontSize="18" Click="Button2M2_Click"/>
+        <Button x:Name="Button2M3" Content="-3" HorizontalAlignment="Left" Height="26" Margin="131,301,0,0" VerticalAlignment="Top" Width="65" Background="#FF993C3C" Foreground="White" FontWeight="Bold" FontSize="18" Click="Button2M3_Click"/>
 
-        <Button x:Name="Button3Pl3" Content="+3" HorizontalAlignment="Left" Height="26" Margin="228,131,0,0" VerticalAlignment="Top" Width="65" Background="#FF77BD77" Foreground="White" FontWeight="Bold" FontSize="18"/>
-        <Button x:Name="Button3Pl2" Content="+2" HorizontalAlignment="Left" Height="26" Margin="229,162,0,0" VerticalAlignment="Top" Width="65" Background="#FF77BD77" Foreground="White" FontWeight="Bold" FontSize="18"/>
-        <Button x:Name="Button3Pl1" Content="+1" HorizontalAlignment="Left" Height="26" Margin="229,193,0,0" VerticalAlignment="Top" Width="65" Background="#FF77BD77" Foreground="White" FontWeight="Bold" FontSize="18"/>
-        <Button x:Name="Button3M1" Content="-1" HorizontalAlignment="Left" Height="26" Margin="228,239,0,0" VerticalAlignment="Top" Width="65" Background="#FF993C3C" Foreground="White" FontWeight="Bold" FontSize="18"/>
-        <Button x:Name="Button3M2" Content="-2" HorizontalAlignment="Left" Height="26" Margin="229,270,0,0" VerticalAlignment="Top" Width="65" Background="#FF993C3C" Foreground="White" FontWeight="Bold" FontSize="18"/>
-        <Button x:Name="Button3M3" Content="-3" HorizontalAlignment="Left" Height="26" Margin="228,301,0,0" VerticalAlignment="Top" Width="65" Background="#FF993C3C" Foreground="White" FontWeight="Bold" FontSize="18"/>
+        <Button x:Name="Button3Pl3" Content="+3" HorizontalAlignment="Left" Height="26" Margin="228,131,0,0" VerticalAlignment="Top" Width="65" Background="#FF77BD77" Foreground="White" FontWeight="Bold" FontSize="18" Click="Button3Pl3_Click"/>
+        <Button x:Name="Button3Pl2" Content="+2" HorizontalAlignment="Left" Height="26" Margin="229,162,0,0" VerticalAlignment="Top" Width="65" Background="#FF77BD77" Foreground="White" FontWeight="Bold" FontSize="18" Click="Button3Pl2_Click"/>
+        <Button x:Name="Button3Pl1" Content="+1" HorizontalAlignment="Left" Height="26" Margin="229,193,0,0" VerticalAlignment="Top" Width="65" Background="#FF77BD77" Foreground="White" FontWeight="Bold" FontSize="18" Click="Button3Pl1_Click"/>
+        <Button x:Name="Button3M1" Content="-1" HorizontalAlignment="Left" Height="26" Margin="228,239,0,0" VerticalAlignment="Top" Width="65" Background="#FF993C3C" Foreground="White" FontWeight="Bold" FontSize="18" Click="Button3M1_Click"/>
+        <Button x:Name="Button3M2" Content="-2" HorizontalAlignment="Left" Height="26" Margin="229,270,0,0" VerticalAlignment="Top" Width="65" Background="#FF993C3C" Foreground="White" FontWeight="Bold" FontSize="18" Click="Button3M2_Click"/>
+        <Button x:Name="Button3M3" Content="-3" HorizontalAlignment="Left" Height="26" Margin="228,301,0,0" VerticalAlignment="Top" Width="65" Background="#FF993C3C" Foreground="White" FontWeight="Bold" FontSize="18" Click="Button3M3_Click"/>
 
         <Label Content="Счетчик" HorizontalAlignment="Left" Height="30" Margin="131,6,0,0" VerticalAlignment="Top" Width="71" FontSize="14" Foreground="White"/>
 
